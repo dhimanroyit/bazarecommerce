@@ -1,0 +1,35 @@
+@mixin  container($width) {
+  .container {
+    width: $width;
+    @content;
+  }
+}
+@each $key, $value in $brackpoint {
+  @media (min-width: $value) {
+      @if $key == xs {
+        @at-root (without: media) {
+          @include container($value) {
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        } 
+      }
+      @else if $key == sm {
+        @include container($value)
+      }
+      @else if $key == md {
+        @include container($value)
+      }
+      @else if $key == lg {
+        @include container($value)
+      }
+      @else if $key == xl {
+        @include container($value)
+      }
+      @else  {
+        @include container($value)
+      }
+    
+  }
+}
