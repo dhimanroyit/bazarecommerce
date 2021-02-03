@@ -8,7 +8,7 @@
   @media (min-width: $value) {
       @if $key == xs {
         @at-root (without: media) {
-          @include container($value) {
+          @include container(100%) {
             margin: 0 auto;
             padding-left: 15px;
             padding-right: 15px;
@@ -16,19 +16,19 @@
         } 
       }
       @else if $key == sm {
-        @include container($value)
+        @include container(540px)
       }
       @else if $key == md {
-        @include container($value)
+        @include container(720px)
       }
       @else if $key == lg {
-        @include container($value)
+        @include container(960px)
       }
       @else if $key == xl {
-        @include container($value)
+        @include container(1250px)
       }
       @else  {
-        @include container($value)
+        @include container(1320px)
       }
     
   }

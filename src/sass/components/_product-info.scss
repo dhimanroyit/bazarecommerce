@@ -1,0 +1,44 @@
+.product-info {
+  padding: 15px;
+  &__header {
+    border-bottom: 1px solid rgba(0,0,0, .3);
+  }
+  &__title {
+
+  }
+
+  &__sku {
+
+  }
+
+  &__brand {
+
+  }
+
+  &__rating {
+    .ant-rate {
+      font-size: 12px;
+    }
+    margin-bottom: 5px;
+  }
+
+  &__price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  &__stock {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  &__quantity {
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 10px;
+      font-size: 16px;
+    }
+  }
+}

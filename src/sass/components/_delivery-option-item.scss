@@ -1,0 +1,22 @@
+.delivery-item {
+  display: flex;
+  padding: 15px;
+  border: 1px solid rgba(0,0,0,.2);
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  &__action             {
+    margin-left: auto;
+  }
+}
+

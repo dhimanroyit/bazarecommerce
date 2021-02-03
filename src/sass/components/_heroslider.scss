@@ -1,0 +1,30 @@
+.hero-slider {
+  margin-top: 10px;
+  &__carousel {
+    border-radius: 5px;
+    overflow: hidden;
+
+    .slick-dots {
+      li {
+        width: 20px;
+        // height: 5px;
+
+        &.slick-active {
+          width: 35px;
+        }
+        
+        button {
+          height: 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  &__item {
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

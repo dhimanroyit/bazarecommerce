@@ -1,0 +1,15 @@
+.theme-btn {
+  width: 175px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  background-color: $search-btn;
+  color: #ffffff;
+
+  &__icon {
+    margin-right: 15px;
+  }
+
+  &__buy {
+    margin-top: 35px;
+  }
+}

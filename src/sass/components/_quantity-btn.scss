@@ -1,0 +1,15 @@
+.quantity-btn {
+
+  &__input {
+    border: 1px solid rgba(0,0,0, .2);
+    width: 120px;
+    padding: 5px;
+  }
+
+  &__button {
+    border: 1px solid rgba(0,0,0, .2);
+    padding: 5px 10px;
+    background-color: $search-btn;
+    color: #ffffff;
+  }
+}
