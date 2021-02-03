@@ -33,6 +33,7 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
+
   &__quantity {
     display: flex;
     align-items: center;
@@ -40,5 +41,9 @@
       margin-right: 10px;
       font-size: 16px;
     }
+  }
+
+  &__buy {
+    margin-top: 20px;
   }
 }

@@ -1,0 +1,47 @@
+.product-carousel {
+
+  .react-slider img {
+    border:none;
+  }
+  .react-slider__picture {
+    min-height: 0;
+  }
+  .react-slider__container {
+    
+    button {
+      width: 25px;
+      height: 100%;
+      top: 0;
+      opacity: 1;
+      background-color: rgba(0,0,0,.3);
+      transition: transform .5s ease-in-out
+    }
+    .react-slider__btnPrev {
+      opacity: 0;
+      transform: translate(-100%, 0);
+    }
+    .react-slider__btnNext {
+      opacity: 0;
+      transform: translate(100%, 0);
+    }
+    &:hover .react-slider__btnPrev {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    &:hover .react-slider__btnNext {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  
+  .react-slider__ul li.active img {
+    border: 1px solid rgba(0,0,0,.3);
+  }
+
+
+  .react-slider__ul {
+    margin-top: 10px;
+    justify-content: center;
+  }
+   
+}

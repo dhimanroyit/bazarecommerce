@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import DeliveryOption from "./DeliveryOption/DeliveryOption";
 import ProductInfo from "./ProductInfo/ProductInfo";
+import ProductCarousel from "./ProductCarousel/ProductCarousel";
 
 const ProductDetails = () => {
   return (
@@ -9,9 +10,7 @@ const ProductDetails = () => {
       <div className="container">
         <Row gutter={16}>
           <Col md={8}>
-            <div className="product-media">
-              
-            </div>
+            <ProductCarousel />
           </Col>
           <Col md={10}>
             <ProductInfo />

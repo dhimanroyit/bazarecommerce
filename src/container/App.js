@@ -1,6 +1,7 @@
 import React from "react";
 import "antd/dist/antd.css";
 import "../sass/main.scss";
+import 'react-responsive-carousel/lib/styles/carousel.css';
 import {Row} from "antd";
 import Header from "../components/Header/Header";
 import Nav from "../components/Nav/Nav";
